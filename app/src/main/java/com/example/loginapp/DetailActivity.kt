@@ -18,6 +18,7 @@ class DetailActivity : AppCompatActivity() {
         logo = intent.getIntExtra(FactAdapter.LOGO_EXTRA, 0)
         name = intent.getStringExtra(FactAdapter.NAME_EXTRAS)
         detail = intent.getStringExtra(FactAdapter.FACT_EXTRAS)
+        setFactDetail()
 
 
     }
